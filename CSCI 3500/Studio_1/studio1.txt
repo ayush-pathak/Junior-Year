@@ -1,0 +1,22 @@
+1. Ayush Pathak and Samiksha Mailarpwar
+
+2. The header file needed for fprintf is stdio.h
+
+3. The difference between the signature fprintf and printf is that fprintf takes more arguments than printf. 
+
+4. The described difference between printf and fprintf is that fprintf writes to an output stream and printf writes to stdout.
+
+5. The output to the terminal is: Hello, world!
+
+6. The section number for system calls is 2. 
+
+7. The header file needed for the write system call is unistd.h
+
+8. 
+
+9. The terminal output is: Hello, world! 
+
+10. The third argument in the write function specifies the number of bytes to be written. Increasing the number causes random letters to written out.
+    This may happen because the system prints out the characters in the buffer array and since after all the chars are printed, it takes bytes in memory and then prints them out.
+
+11. As a software developer using the C library function is helpful because it wraps the system calls that you need to use to peform a task. Using system call is more useful in maybe creating/excuting a process or scheduling a process. 

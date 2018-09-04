@@ -1,0 +1,12 @@
+1. Ayush Pathak 
+
+2. The report after running the time command reveals that it takes in real time 1.099s.
+
+3. With the read character setting at 8, the real running time is 1.099s.
+   With the read character setting at 80, the real running time is 0.282s.
+   With the read character setting at 800, the real running time is 0.162s.
+   With the read character setting at 4096, the real running time is 0.190s.
+
+4. I think that it is faster to make few system calls that reads many characters because the system then can spend more time running the program rather than going and fetching small amounts of characters every so often. If we look at the results of question 2, larger settings for the third parameter results is faster real run times. 
+
+5. No extra credit. 

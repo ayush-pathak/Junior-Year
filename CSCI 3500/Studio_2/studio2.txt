@@ -1,0 +1,21 @@
+1. Ayush Pathak and Samiksha Mailarpwar
+
+2. copies what ever you type in the console.
+
+3. It spits the text out from a specified source on the console screen. 
+
+4. It takes the input typed and creates a new file with that input.
+
+5. It takes the input and appends the text to what is already in the file. 
+
+6. The header file to include for read() and write() is unistd.h
+
+7.
+
+8. The read function returns an int, specifically 0, to indicate it is at the end of file. 
+
+9. The program doesn't exactly match the behavior of cat.
+
+10. Modifying the predefined bufferSize to be larger may increase the accuracy of this program because it would mean more space to hold the input. Increasing the bufferSize to 2000 increases the amount of text that is printed to the screen. When the bufferSize is 1 it prints the last character of the text.
+
+11. I think the tradoff between having a large buffer and small buffer is the speed of the program. When you have a large buffer, it would take more memory space and make the program slower to run compared to a smaller buffer. 
